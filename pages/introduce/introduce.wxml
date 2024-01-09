@@ -1,0 +1,22 @@
+<view class="topPicture">
+  <image src="https://img.js.design/assets/img/6325429214c2eaf1eee5f1ec.png#892dbfbd33aa6d3721e139f563f15058" mode="heightFix"/>
+</view>
+<view class="topWords">
+  <text>《莞工青年论坛》办公室(简称“莞青”) 是由东莞理工学院校团委领导，围绕多元化、公益化、网络化和专业化的组织特色，开展讲座、沙龙、莞微电台、绘心说等品牌活动&栏目，于兴趣间拓宽学子视野，在思考中激发思想共鸣。</text>
+</view>
+<view class="centerButton">
+  <view class="button">
+    <text bindtap="intoTweet" data-tweetName="introduction">了解更多</text>
+  </view>
+</view>
+<view class="cuttingLine">
+    <view class="line1">
+    </view>
+    <view class="line2">
+    </view>
+</view>
+<view class="bottomPicture">
+  <image bindtap="intoTweet" data-tweetName="department" src="https://img.js.design/assets/img/640fdaf9a6c8b9f8cfd30efc.png#3ee6b6624ef32ca4bc3a6cfc29341c27" mode="heightFix"/>
+  <image bindtap="intoTweet" data-tweetName="speak" src="https://img.js.design/assets/img/640fdd3aa6c8b9f8cfd50656.png#a4f594b5f0979d12ffd3e6628474a767" mode="heightFix"/>
+</view>
+

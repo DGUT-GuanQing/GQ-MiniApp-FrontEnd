@@ -1,0 +1,16 @@
+<!--component/forecast/forecast.wxml-->
+
+
+    <view class="item"  bindtap="intoNewForecastLecture" >
+      <view class="left">
+        <view class="lefttop"><text>{{"第"+term+"期"}}</text></view>
+        <view class="leftbottom1"><text>{{guestName}}</text></view>
+        <view class="leftbottom2"><text>{{lectureName}}</text></view>
+      </view>
+      <view class="right">
+        <image src="data:image/png;base64,{{pictureCode}}"  mode="widthFix" style="width:100%;" />
+      </view>
+    </view>
+
+
+

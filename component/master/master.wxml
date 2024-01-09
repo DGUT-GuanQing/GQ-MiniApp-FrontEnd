@@ -1,0 +1,10 @@
+<!--component/master/master.wxml-->
+<view class="wrapper">
+  <!-- <image class="image" src="{{src}}" mode="aspectFill"  />
+  <view class="identity">
+    <text class="text1">陈艺新</text>
+    <text  class="text2">NLP心理学认证师</text>
+  </view>
+  <text class="time">第19期</text> -->
+  <text  class="time" style="position: relative;left: 40%;">敬请期待</text>
+</view>

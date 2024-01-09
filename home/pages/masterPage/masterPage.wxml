@@ -1,0 +1,13 @@
+<!--home/pages/masterPage/masterPage.wxml-->
+<view class="wrapper">
+<van-search value="{{ value }}" placeholder="搜索嘉宾名字或讲座期数" clearable="true"/>
+<view class="title"><text>第150期嘉宾</text></view>
+<view class="image"><image src="https://img.js.design/assets/img/643be299a851f98b65dde1be.png#a3eff6932ee5871e66d683efe82fe91f)"  mode="widthFix" style="width:100%;" /></view>
+
+<view class="nameText"><text>周任勋</text></view>
+<view class="firstIntroduceText"><text>中国街舞元老\n中国首位街舞世界冠军\n中国舞蹈家协会街舞委员会常务理事\n广州老派舞团THE DOGS团长\n《这就是街舞》人气选手 </text></view>
+<view class="secondIntroduceText">
+<text>周任勋先生舞龄30年，见证了中国街舞的萌芽与成长，致力于中国街舞文化推广事业，对于中国街舞的发展有自己独到的思考和研究。曾在中国各地多次开设舞蹈公开课，强调舞蹈与生活相结合的理论，将中国元素更多融入舞蹈中，用街舞讲述中国故事，广受社会大众好评。 </text>
+</view>
+</view>
+

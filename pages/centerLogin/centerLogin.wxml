@@ -1,0 +1,45 @@
+<image class="background" mode="heightFix" src="https://img.js.design/assets/img/641056339f73338ddbfdb7c6.png#623a9c1f0c8ee8abe1689e7d900fe355"></image>
+<view class="top" style="margin-top:{{s}}px;height: {{n}}px;">
+  <view class="return" bindtap="return"> 
+    <image src="/image/icon/centerLogin-return.png" mode="widthFix"/>
+  </view>
+  <view class="title">
+    <text>莞工·中央认证系统</text>
+  </view>
+</view>
+<view class="wrap">
+  <view class="cardTop">
+    <image src="https://img.js.design/assets/img/6410644948f147628edbd708.png#80b88e8e861f01d557bbcc66303ab855" mode="widthFix"/>
+    <view class="cuttingLine">
+    </view>
+    <text>中央认证</text>
+  </view>
+  <view class="text1">
+    <text>您即将登录莞青认证系统</text>
+  </view>
+  <view class="text2">
+    <text>账号登录</text>
+  </view>
+  <view class="centerCuttingLine">
+    <view class="line1">
+    </view>
+    <view class="line2">
+    </view>
+  </view>
+  <view class="account">
+    <image src="/image/icon/centerLogin-account.png" mode="widthFix"/>
+    <text>请输入学号/工号</text>
+  </view>
+  <view class="password">
+    <image src="/image/icon/centerLogin-password.png" mode="widthFix"/>
+    <text>请输入密码</text>
+    <image src="/image/icon/centerLogin-closeEye.png" mode="widthFix"/>
+  </view>
+  <view class="login">
+    <text>登录</text>
+  </view>
+  <view class="tourist">
+    <image src="/image/icon/centerLogin-tourist.png" mode="widthFix"/>
+    <text>访客登录</text>
+  </view>
+</view>

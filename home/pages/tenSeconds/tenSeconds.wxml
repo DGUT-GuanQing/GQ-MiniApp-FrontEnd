@@ -1,0 +1,42 @@
+<!--home/pages/tenSeconds/tenSeconds.wxml-->
+<!-- 十秒页面 -->
+
+<view class="wrapper">
+
+  <!-- 背景图片 -->
+  <image class="bg-image" mode="scaleToFill" src="../../../image/background/home-tenSeconds.jpg"></image>
+
+  <van-search value="{{ value }}" placeholder="请输入搜索关键词" clearable="true" bindtap="warn"/>
+
+
+  <!-- 列表 -->
+  <view class="container" bindtap="warn">
+    <scroll-view scroll-y>
+      <view  class="list">
+        <!-- 每一项 -->
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      <tenSeconds-item></tenSeconds-item>
+      </view>
+      
+
+
+
+
+
+    </scroll-view>
+  </view>
+</view>

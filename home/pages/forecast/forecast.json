@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "forecast-item":"../../../component/forecast/forecast"
+  },
+  "navigationBarTitleText": "预告",
+  "disableScroll":true
+}

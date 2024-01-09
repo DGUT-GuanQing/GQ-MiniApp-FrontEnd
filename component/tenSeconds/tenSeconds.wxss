@@ -1,0 +1,31 @@
+/* component/tenSeconds/tenSeconds.wxss */
+.wrapper{
+  display: inline-block;
+}
+.item {
+  width: 300rpx;
+  
+  height: 290rpx;
+
+  background: rgba(255, 255, 255, 1);
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  /* margin-right:29rpx; */
+  margin-bottom: 30rpx;
+  border-radius: 24rpx;
+}
+
+.top image {
+  width: 333rpx;
+  height: 186.36rpx;
+  border-radius: 24rpx;
+}
+
+.bottom {
+  font-size: 24rpx;
+  margin-left: 16rpx;
+  margin-bottom: 32.68rpx;
+}

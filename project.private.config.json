@@ -1,0 +1,120 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "guanqinMinProgram-main",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "home/pages/forecast/forecast",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "home/pages/page/page",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/my/my",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/introduce/introduce",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/centerLogin/centerLogin",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "点击报名页面",
+          "pathName": "home/pages/apply/apply",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "预告页面",
+          "pathName": "home/pages/forecast/forecast",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "十秒页面",
+          "pathName": "home/pages/tenSeconds/tenSeconds",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "回顾页面",
+          "pathName": "home/pages/review/review",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "投递简历页面（组织招新）",
+          "pathName": "my/pages/resume/resume",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "订票信息页面",
+          "pathName": "my/pages/ticket/ticket",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "嘉宾信息",
+          "pathName": "home/pages/masterPage/masterPage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "我的1信息（简历预览）",
+          "pathName": "my/pages/myMessage/myMessage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/centerLogin/centerLogin",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "libVersion": "2.32.0"
+}

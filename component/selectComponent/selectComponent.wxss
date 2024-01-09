@@ -1,0 +1,75 @@
+/* component/selectComponent/selectComponent.wxss */
+
+.select-box {
+  position: relative;
+  width: 300rpx;
+  font-size: 30rpx;
+  color:rgba(153, 153, 153, 1);
+}
+
+.select-current {
+  position: relative;
+  width: 320rpx;
+  height: 56rpx;
+  padding: 0 10rpx;
+  line-height: 56rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 6rpx;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 1);
+  border: 1rpx solid rgba(200, 200, 200, 1);
+
+  margin-top: 20rpx;
+ 
+}
+
+.select-current::after {
+  position: absolute;
+  display: block;
+  right: 16rpx;
+  top: 30rpx;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 10rpx solid transparent;
+  border-top: 10rpx solid #999;
+}
+
+.current-name {
+  display: block;
+  /* width: 85%; */
+  height: 70rpx;
+  word-wrap: normal;
+  overflow: hidden;
+  text-align: center;
+}
+
+.option-list {
+  position: absolute;
+  left: 0;
+  top: 76rpx;
+  width: 100%;
+  padding: 12rpx 20rpx 10rpx 20rpx;
+  border-radius: 6rpx;
+  box-sizing: border-box;
+  z-index: 99;
+  box-shadow: 0rpx 0rpx 1rpx 1rpx rcurrent-namegba(0, 0, 0, 0.2) inset;
+  background-color: #fff;
+}
+
+.option {
+  display: block;
+  width: 100%;
+  line-height: 70rpx;
+  border-bottom: 1rpx solid #dadada;
+  text-align: center;
+}
+
+.option:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.key-input {
+  display: none;
+}

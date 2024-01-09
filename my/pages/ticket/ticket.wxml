@@ -1,0 +1,27 @@
+<!--my/pages/ticket/ticket.wxml-->
+<!-- 订票信息页面 -->
+
+
+<view class="wrapper">
+  <!-- 列表 -->
+  <view class="section">
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker" style="width: 582rpx; height: 42rpx; display: block; box-sizing: border-box">
+        当前选择：{{array[index]}}
+      </view>
+    </picker>
+  </view>
+  <view class="container">
+    <scroll-view scroll-y>
+      <view class="list">
+
+        <!-- 每一项 -->
+        <ticket-item    wx:for="{{lectures}}" wx:key="term" guestName="{{item.guestName}}" image="{{item.image}}" lectureName="{{item.lectureName}}" officialAccountUrl="{{item.officialAccountUrl}}" term="{{item.term}}" place="{{item.place}}" startTime="{{item.startTime}}" endTime="{{item.endTime}}" status="{{item.status}}" >
+        </ticket-item>
+        <view class="bottomTip">
+          <text>暂时没有更多内容......</text>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

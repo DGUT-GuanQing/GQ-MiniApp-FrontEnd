@@ -1,0 +1,23 @@
+<!--pages/schoolCentralCertification/schoolCentralCertification.wxml-->
+<!-- <web-view src="https://auth.dgut.edu.cn/authserver/login?service=https://gq.dgut.edu.cn/user/getUserInfo"></web-view> -->
+
+
+<!-- <web-view src="https://auth.dgut.edu.cn/authserver/login?service=https://gq.dgut.edu.cn/user/getUserInfo"></web-view> -->
+<!-- 
+<web-view src="{{'https://webvpn.dgut.edu.cn/rump_frontend/connect/?target=https&id=https://gq.dgut.edu.cn/user/getUserInfo?token='+token}}" bindmessage="msgHandler"></web-view> -->
+
+<!-- <web-view src="{{'https://webvpn.dgut.edu.cn/rump_frontend/connect/?target=https&id=https://gq.dgut.edu.cn/user/getUserInfo?id='+id}}" bindmessage="msgHandler"></web-view> -->
+
+<!-- <web-view src="{{'https://auth.dgut.edu.cn/authserver/login?service=https://gq.dgut.edu.cn/user/getUserInfo?id='+id}}" bindmessage="msgHandler"></web-view> -->
+
+
+<!-- 
+
+<web-view src="{{'https://auth.dgut.edu.cn/authserver/login?service=https://gq.dgut.edu.cn/user/getUserInfo'}}" bindmessage="msgHandler"></web-view> -->
+
+<web-view src="{{'https://auth.dgut.edu.cn/authserver/login?service=https://gq.dgut.edu.cn/user/getUserInfo?id='+id}}"  bindmessage="msgHandler"></web-view>
+
+<!-- 
+
+<web-view src="{{'https://auth.dgut.edu.cn/authserver/login?service=https://gq.dgut.edu.cn/user/getUserInfo'+id}}"  bindmessage="msgHandler"></web-view> -->
+       

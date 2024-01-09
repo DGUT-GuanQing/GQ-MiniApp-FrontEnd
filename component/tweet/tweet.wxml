@@ -1,0 +1,5 @@
+<!--component/tweet/tweet.wxml-->
+
+<view class="wrapper" bindtap="intoNewTweet">
+  <image class="image" src="data:image/png;base64,{{pictureCode}}" mode="widthFix"/>
+</view>

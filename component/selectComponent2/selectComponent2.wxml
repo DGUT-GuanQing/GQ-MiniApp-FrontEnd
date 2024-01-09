@@ -1,0 +1,13 @@
+<!--component/selectComponent/selectComponent.wxml-->
+
+<view class="select-box">
+  <view class="select-current" catchtap="openClose">
+    <input class="current-name" placeholder="{{lastSelectPositionName}}" disabled="disabled"  name="{{showFieldName}}" value="{{showFieldVal}}" data-id="{{keyFieldVal}}"/>
+    <input class="key-input" name="{{keyFieldName}}" value="{{keyFieldVal}}"  />
+  </view>
+  <view class="option-list" wx:if="{{isShow}}">
+    <view wx:for="{{result}}" wx:key="id">
+      <text class="option"  data-id="{{item.id}}" data-value="{{item.name}}" bindtap="clickSelect">{{item.name}}</text>
+    </view>
+  </view>
+</view>

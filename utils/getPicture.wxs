@@ -1,0 +1,22 @@
+// var app=getApp();
+// // 请求头像图片
+// getPicture= async (src)=>{
+//     const res =await wx.request({
+//       url: 'https://historyhangqin.com:8083/common/download',
+//       method:"GET",
+//       data:{
+//         name:src,
+//         type:0
+//       },
+//       header:{
+//         'token':app.globalData.token
+//       },
+//       responseType: 'arraybuffer',
+//     })
+//     console.log("请求图片",res)
+//     return wx.arrayBufferToBase64(res.data);
+// }
+
+// module.exports = {
+//   getPicture()
+// }

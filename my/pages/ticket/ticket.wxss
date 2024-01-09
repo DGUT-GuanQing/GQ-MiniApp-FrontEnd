@@ -1,0 +1,56 @@
+/* my/pages/ticket/ticket.wxss */
+
+
+.wrapper {
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 0rpx;
+  padding-right: 0rpx;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+
+.container {
+  height: 1360rpx;
+  width: 690rpx;
+  margin: 30rpx 37.5rpx 30rpx 37.5rpx;
+  background-color: rgba(245, 245, 245, 1);
+  /* padding-left: 29rpx; */
+}
+
+.list {
+ 
+  height: 1250rpx;
+  width: 100%;
+  margin-bottom: 50rpx;
+  border-radius: 24rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  /* justify-content:space-between;` */
+  /* background-color: azure; */
+}
+
+.bottomTip{
+  height: 60rpx;
+  width: 750rpx;
+  text-align: center;
+}
+/* 
+ticket-item{
+
+  margin-bottom:-2000rpx ;
+} */
+.section{
+  width: 628rpx;
+  padding: 22rpx 30rpx;
+  border-radius: 10rpx;
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}

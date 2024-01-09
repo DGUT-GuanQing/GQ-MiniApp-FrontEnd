@@ -1,0 +1,51 @@
+<!--home/pages/apply/apply.wxml-->
+
+<!-- 点击报名页面 -->
+<!-- 海报 -->
+<!-- <view bindtap="warn"> -->
+  <view>
+
+<view id="topimg">
+  <!-- <image style="width:100%" mode="widthFix" src="{{imgUrl}}" bindtap="clickImg"></image> -->
+  <image style="width:100%" mode="widthFix" src="data:image/png;base64,{{image}}"  bindtap="clickImg"></image>
+
+</view>
+
+<view class="title centertext">
+  <text class="texticon"> ///</text>
+  <text style='padding-left: 34rpx;padding-right: 34rpx;'>讲座主题</text>
+  <text class="texticon">///</text>
+</view>
+<view class="content centertext" style="margin-bottom: 80rpx;">
+  <!-- <text style='padding-left: 34rpx;padding-right: 34rpx;'>游乐寻思 破幻探实</text> -->
+  <text style='padding-left: 34rpx;padding-right: 34rpx;'>{{tweet.title}}</text>
+</view>
+
+
+<view class="title centertext">
+  <text class="texticon"> ///</text>
+  <text style='padding-left: 34rpx;padding-right: 34rpx;'>讲座导语</text>
+  <text class="texticon">///</text>
+</view>
+<view class="content centertext" style="margin-bottom: 100rpx;">
+  <!-- <text style='padding-left: 34rpx;padding-right: 34rpx;'>释桎梏 移嬉乐固见\n承远任 扬游戏趣旨\n以史学之见 洞时空览意\n玩索万千游 幻相寻今律\n破虚实界 审戏度己\n掘其所向 为己所驭</text> -->
+  <text style='padding-left: 34rpx;padding-right: 34rpx;'>{{tweet.introduction}}</text>
+
+</view>
+
+<view wx:if="{{timeTipsIsShow&&timeDifference!=1}}" class="timeTipsIsShow"  >{{remainingTime}}</view>
+
+
+<view >
+  <button  bindtap="onButtonClicked"  id="changeColor" class="{{timeTipsIsShow ? 'applybuttonblack' : 'applybutton'}}">
+    
+    <text >{{textButton}}</text>
+  </button>
+</view>
+
+
+<view class="titlebottom centertext">
+  <text>点击</text>
+  <text  id="texttap" catchtap="handleClick">查看推文</text><text>了解详情</text>
+</view>
+</view>

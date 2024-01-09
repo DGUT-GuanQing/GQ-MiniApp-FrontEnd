@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "tenSeconds-item":"../../../component/tenSeconds/tenSeconds"
+  },
+  "navigationBarTitleText": "十秒",
+  "disableScroll": true
+}

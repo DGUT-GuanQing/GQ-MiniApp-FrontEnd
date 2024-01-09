@@ -1,0 +1,67 @@
+<!--pages/home/home.wxml-->
+<view class="wrapperBox">
+
+<view class="titlewrapper">
+  <view class="square"></view>
+  <text class="title">最新活动</text>
+</view>
+<view class="tweet" >
+  <tweet  src="{{tweet.pictureSrc}}" link="{{tweet.link}}" title="{{tweet.title}}" ></tweet>
+</view>
+<view class="titlewrapper">
+  <view class="square"></view>
+  <text class="title">讲座资讯</text>
+</view>
+<view class="center">
+  <!-- functionId 1--报名 2--预告 3--十秒 4--回顾 -->
+  <view class="wrapperFunction" >
+    <view class="FunctionButton" bindtap="intoFunction" data-functionId="2">
+      <image src="/image/icon/home-forecast-default.png" mode=""/>
+      <text>预告</text>
+    </view>
+    
+    <view class="FunctionButton" bindtap="warn" data-functionId="3">
+    <!-- <view class="FunctionButton" bindtap="intoFunction" data-functionId="3"> -->
+      <image src="/image/icon/home-promoteVideo-default.png" mode=""/>
+      <text>宣传片</text>
+    </view>
+    <view class="FunctionButton" bindtap="intoFunction" data-functionId="4">
+      <image src="/image/icon/home-review-default.png" mode=""/>
+      <text>回顾</text>
+    </view>
+  </view>
+  <view class="wrapperSign" bindtap="intoFunction" data-functionId="1">
+    <view class="button">
+     <text> 讲座报名</text>
+    </view>
+  </view>
+</view>
+
+<view class="masterWrapper" >
+<view class="titlewrapper" style="margin:0rpx;">
+  <view class="square"></view>
+  <text class="title">往期嘉宾</text>
+</view>
+  <scroll-view class="scrollView" scroll-y="true" bindtap="warn">  
+    <!-- <view class="master">
+      <master bindtap="gotoInfoMasterPage"></master>
+    </view> -->
+    <view class="master">
+      <master ></master>
+    </view>
+    <!-- <view class="master">
+      <master ></master>
+    </view>
+    <view class="master">
+      <master></master>
+    </view>
+    <view class="master">
+      <master ></master>
+    </view>
+    <view class="master">
+      <master></master>
+    </view> -->
+  </scroll-view>
+</view>
+  
+</view>

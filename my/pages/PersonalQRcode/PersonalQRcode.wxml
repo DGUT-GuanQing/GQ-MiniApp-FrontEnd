@@ -1,0 +1,7 @@
+<!--my/pages/PersonalQRcode/PersonalQRcode.wxml-->
+<view class="container"  style="width: 604rpx; height: 512rpx; display: block; box-sizing: border-box; position: relative; left: 72rpx; top: 0rpx">
+  <image style="width: 502rpx; height: 498rpx; display: inline-block; box-sizing: border-box; margin-left: 60rpx; position: relative; left: -9rpx; top: 0rpx" src="{{personalQRcode}}" mode="aspectFit" />
+</view>
+<view>
+  <image style="width: 450rpx; height: 416rpx; display: inline-block; box-sizing: border-box; position: relative; left: 150rpx; top: 4rpx" src="../../../image/background/7ae487e647c0d35e36858ebbd913539.png" mode=""/>
+</view>

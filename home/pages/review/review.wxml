@@ -1,0 +1,28 @@
+<!--home/pages/review/review.wxml-->
+<!-- 回顾页面 -->
+<view class="wrapper">
+
+<!-- 背景图片 -->
+<image class="bg-image" mode="scaleToFill" src="../../../image/background/home-forecast.png"></image>
+
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" clearable="true" bindtap="warn"/>
+
+
+<!-- 列表 -->
+<view class="container">
+  <scroll-view class="scrollview" scroll-y class="list">
+
+    <!-- 每一项 -->
+   
+
+    <review-item wx:for="{{lectures}}" wx:key="item.term"
+      guestName="{{item.guestName}}" reviewName="{{item.reviewName}}"
+      reviewUrl="{{item.reviewUrl}}" term="{{item.term}}" status="{{item.status}}" reviewOfficialAccountUrl="{{item.reviewOfficialAccountUrl}}"
+    ></review-item>
+
+    
+    
+
+  </scroll-view>
+</view> 
+</view>

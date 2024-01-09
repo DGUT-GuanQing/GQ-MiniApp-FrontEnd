@@ -1,0 +1,13 @@
+<!--component/tenSeconds/tenSeconds.wxml-->
+
+<view class="wrapper">
+  <view class="item">
+<view class="top">
+  <image src="https://img.js.design/assets/img/6416fbff30374b2d6eaa89bf.png#18b958f28543c190921c16c090c9f14f" mode="widthFix" style="width:100%;" />
+  
+</view>
+<view class="bottom">
+  <view class="leftbottom"><text>第149期 刘梦露——游乐寻思\n破幻探实</text></view>
+</view>
+</view>
+</view>

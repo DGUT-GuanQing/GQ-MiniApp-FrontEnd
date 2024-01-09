@@ -1,0 +1,9 @@
+<!--component/review/review.wxml-->
+
+<view class="container" bindtap="intoNewReviewLecture">
+  <image class="image" src="data:image/png;base64,{{pictureCode}}" mode="widthFix" style="width:100%;" />
+
+  <view class="bottomtext">
+    <text>讲座回顾 | {{guestName}}：{{reviewName}}</text>
+  </view>
+</view>

@@ -1,0 +1,162 @@
+.background {  /*背景板*/
+  width: 100%;
+  height: 100%;
+  position: absolute; /* 使用 z-index 调整上下层级需要脱离文档流 */
+  top: 0;
+  z-index: -100; /* z-index 设低一点，让页面元素可以覆盖它 */
+}
+.top {
+  height: 75rpx;
+  display: flex;
+  align-items: center;
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.return{
+  width: 120rpx;
+}
+.top .title{
+  margin-left: 107rpx;
+}
+.return image{
+  margin-left: 30rpx;
+  width: 60rpx;
+}
+.wrap{
+  box-sizing: border-box;
+  padding: 30rpx 60rpx 0 60rpx;
+  margin: 170rpx 60rpx 0 60rpx;
+  width: 630rpx;
+  height: 1040rpx;
+  border-radius: 30rpx;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.02);
+  backdrop-filter: blur(4rpx);
+}
+.cardTop{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.cardTop image{
+  width: 362rpx;
+}
+.cardTop .cuttingLine{
+  margin:0 13rpx;
+  width: 1rpx;
+  height: 55rpx;
+  background-color: #cccccc;
+}
+.text1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: rgba(8, 94, 40, 1);
+}
+.text2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50rpx;
+  font-size: 34rpx;
+  font-weight: 700; 
+  color: rgba(83, 134, 217, 1);
+}
+.centerCuttingLine{
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerCuttingLine .line1{
+  width: 30%;
+  height: 8rpx;
+  border-radius: 16rpx 0 0  16rpx ;
+  background: rgba(83, 134, 217, 1);
+}
+.centerCuttingLine .line2{
+  width: 70%;
+  height: 6rpx;
+  border-radius:  0 16rpx 16rpx  0;
+  background: rgba(188, 202, 235, 1);
+}
+.account{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-left: 30rpx;
+  margin-top: 50rpx;
+  width: 510rpx;
+  height: 100rpx;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 1);
+  font-size: 28rpx;
+  font-weight: 500;
+  color: rgba(199, 200, 205, 1);
+}
+.account image{
+  width: 45rpx;
+  margin-right: 20rpx;
+}
+.password{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-left: 30rpx;
+  margin-top: 50rpx;
+  width: 510rpx;
+  height: 100rpx;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 1);
+  font-size: 28rpx;
+  font-weight: 500;
+  color: rgba(199, 200, 205, 1);
+}
+.password image:nth-child(1){
+  width: 45rpx;
+  margin-right: 20rpx;
+}
+.password image:nth-child(3){
+  width: 45rpx;
+  margin-left: auto;
+  margin-right: 30rpx;
+}
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50rpx;
+  width: 510rpx;
+  height: 100rpx;
+  border-radius: 14px;
+  background: rgba(69, 143, 242, 1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 30rpx;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+.tourist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60rpx;
+  width: 510rpx;
+  height: 130rpx;
+  border-radius: 14px;
+  /* background: rgba(255, 255, 255, 1); */
+}
+.tourist image{
+  width: 80rpx;
+}
+.tourist text{
+  margin-top: 8rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: rgba(82, 92, 81, 1);
+}

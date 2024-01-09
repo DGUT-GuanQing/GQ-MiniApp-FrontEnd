@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "ticket-item":"../../../component/ticket/ticket"
+  },
+  "navigationBarTitleText": "订票信息"
+}

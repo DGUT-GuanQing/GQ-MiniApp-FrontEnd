@@ -1,0 +1,29 @@
+<!--component/ticket/ticket.wxml-->
+<view class="wrapper">
+  <view class="item" bindtap="goTo">
+    <view class="left">
+      <!-- <view class="floatcard"><text>已签到{{status}}</text></view> -->
+
+      <view wx:if="{{status==0}}">
+        <view class="floatcard card1"><text>未签到</text></view>
+      </view>
+      <view wx:elif="{{status>=1}}">
+        <view class="floatcard card2"><text>已签到</text></view>
+      </view>
+      <!-- <view wx:if="{{status==2}}">
+        <view class="floatcard card3"><text>未签到 已签退</text></view>
+      </view>
+      <view wx:elif="{{status==3}}">
+        <view class="floatcard card4"><text>已签到 已签退</text></view>
+      </view> -->
+      <image src="data:image/png;base64,{{pictureCode}}" mode="heightFix" style="height:100%;" />
+    </view>
+
+    <view class="right">
+      <view class="righttop"><text>{{"第"+term+"期"}}</text><text> {{guestName}}</text>——<text>{{lectureName}}</text></view>
+      <view class="rightbottom1"><text>{{startTime}}——{{endTime}}</text></view>
+      <view class="rightbottom2"><text>{{place}}</text></view>
+    </view>
+  </view>
+
+</view>

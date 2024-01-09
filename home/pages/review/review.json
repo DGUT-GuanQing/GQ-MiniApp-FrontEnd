@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "review-item":"../../../component/review/review"
+ 
+  },
+  "navigationBarTitleText": "回顾",
+  "disableScroll":true
+}

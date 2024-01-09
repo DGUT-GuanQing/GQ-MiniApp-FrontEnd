@@ -1,0 +1,85 @@
+<!--my/pages/myMessage/myMessage.wxml-->
+
+<view class="wrapper">
+  <!-- 基本信息 -->
+  <view class="basicInformation">
+    <view class="name">
+      <text>{{myCurriculumVitae.name}}</text>
+    </view>
+    <view class="basic2">
+      <text>{{myCurriculumVitae.studentId}} | {{myCurriculumVitae.college}}</text>
+    </view>
+  </view>
+
+  <!-- 联系方式 -->
+  <view class="contact">
+
+
+    <view class="contactview">
+      <view class="iconfont icon-dianhua"></view>
+      <view class="contactText"><text>{{myCurriculumVitae.phone}}</text></view>
+
+    </view>
+
+    <view class="contactview">
+      <view class="iconfont icon-weixin"></view>
+      <view class="contactText"><text>{{myCurriculumVitae.wechat}}</text></view>
+    </view>
+
+  </view>
+
+
+  <!-- 期望工作 -->
+  <view class="wantJob">
+
+    <view class="organization">
+      <text class="greenpoint">·</text>
+      <text class="itemTitle">组织：</text>
+      <text class="itemContent">《莞工青年论坛》办公室</text>
+    </view>
+    <view class="others">
+
+      <view class="aBigItem">
+        <text class="greenpoint">·</text>
+        <text class="itemTitle">部门：</text>
+        <text class="itemContent">{{myCurriculumVitae.departmentName}}</text>
+      </view>
+      <view class="aBigItem">
+        <text class="greenpoint">·</text>
+        <text class="itemTitle">调剂：</text>
+        <text class="itemContent">{{isAdjust}}</text>
+      </view>
+      <view class="aBigItem">
+        <text class="greenpoint">·</text>
+        <text class="itemTitle">职位：</text>
+        <text class="itemContent">{{myCurriculumVitae.positionName}}</text>
+      </view>
+      <view class="aBigItem">
+        <text class="greenpoint">·</text>
+        <text class="itemTitle">部门：</text>
+        <text class="itemContent">{{myCurriculumVitae.departmentName}}</text>
+      </view>
+      <view class="aBigItem">
+        <text class="greenpoint">·</text>
+        <text class="itemTitle">校区：</text>
+        <text class="itemContent">{{campus}}</text>
+      </view>
+    </view>
+
+
+
+  </view>
+
+  <!-- 上传文件 -->
+  <view class="fileSection">
+    <text class="itemTitle">上传文件：</text>
+    <text class="itemContent">{{isFile}}</text>
+  </view>
+
+</view>
+
+
+
+<!-- 确认提交按钮 -->
+
+<!-- <button class="bottomButton"><text>确认提交</text></button> -->

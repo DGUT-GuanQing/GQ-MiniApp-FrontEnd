@@ -1,0 +1,41 @@
+/* component/review/review.wxss */
+.container {
+
+  width: 628.9rpx;
+  height: 317.7rpx;
+  border-radius: 24rpx;
+
+  background-color: aqua;
+  margin-top: 32.3rpx;
+  overflow: hidden;
+
+  position: relative;
+  left: 30rpx;
+}
+
+.image {
+  margin-top: -50rpx;
+}
+
+.bottomtext {
+  position: absolute;
+  bottom: 0rpx;
+  width: 630rpx;
+  height: 54rpx;
+
+  border-radius: 0px 0px, 24px, 24px;
+  background: rgba(166, 166, 166, 0.7);
+  backdrop-filter: blur(4px);
+
+  text-align: center;
+  line-height: 54rpx;
+}
+
+.bottomtext text {
+ 
+  font-size: 24rpx;
+  font-weight: 700;
+  letter-spacing: 0rpx;
+  line-height: 34.75rpx;
+  color: rgba(255, 255, 255, 1);
+}

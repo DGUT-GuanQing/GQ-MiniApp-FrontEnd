@@ -1,0 +1,70 @@
+.topPicture{
+  margin-top: 30rpx;
+  height: 197rpx;
+  display: flex;
+  justify-content: center;
+}
+.topPicture image{
+  width: 421rpx;
+}
+.topWords{
+  margin:30rpx 60rpx 0rpx 60rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: rgba(8, 94, 40, 1);
+}
+.centerButton{
+  margin-left: 236rpx;
+  width: 280rpx;
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerButton .button{
+  /* background: linear-gradient(90deg, rgba(102, 232, 135, 1) 0%, rgba(102, 232, 132, 1) 3.61%, rgba(120, 223, 89, 1) 100%); */
+  /* background: linear-gradient(90deg, rgba(102, 232, 135, 1) 0%, rgba(102, 232, 132, 1) 3.61%, rgba(120, 223, 89, 1) 100%); */
+  display: flex;
+  box-sizing: content-box;
+  justify-content: center;
+  align-items: center;
+  width: 165rpx;
+  height: 55rpx;
+  border-radius: 20rpx;
+  background: rgba(103, 199, 143, 1);
+  border: 6rpx solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 2rpx 4rpx 0px rgba(0, 0, 0, 0.25);
+}
+.centerButton .button text{
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 2rpx 4rpx 0rpx rgba(0, 0, 0, 0.25);
+  /** 文本1 */
+  font-size: 32rpx;
+  font-weight: 700;
+}
+ .cuttingLine{
+  display: flex;
+  margin: 0 30rpx;
+}
+.cuttingLine .line1{
+  width: 30%;
+  height: 8rpx;
+  border-radius: 8rpx;
+  background: rgba(103, 199, 143, 1);
+}
+ .cuttingLine .line2{
+  width: 70%;
+  height: 8rpx;
+  border-radius: 8rpx;
+  background: rgba(171, 240, 191, 1);
+}
+.bottomPicture{
+  margin: 30rpx;
+  height: 690rpx;
+  width: 690rpx;
+}
+.bottomPicture image{
+  margin-bottom: 30rpx;
+  border-radius: 12px; 
+  height: 330rpx;
+}

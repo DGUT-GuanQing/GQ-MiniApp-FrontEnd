@@ -1,0 +1,59 @@
+/* home/pages/forecast/forecast.wxss */
+page {
+  background-color: #F0EFF4;
+}
+
+.wrapper {
+
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx;
+  height: 1300rpx;
+
+}
+
+.bg-image {
+  width: 92%;
+  height: 96%;
+  position: fixed;
+  z-index: -1;
+}
+
+.van-search {
+  height: 209rpx;
+  width: 100%;
+  margin-top: -40rpx;
+
+  left: 30rpx;
+  top: 30rpx;
+
+  background: transparent !important;
+
+}
+
+.van-search__content {
+
+  width: 630rpx;
+  height: 64rpx;
+  border-radius: 31.5rpx !important;
+  border: 1px solid rgba(229, 229, 229, 0.2);
+  background: rgba(255, 255, 255, 1);
+
+  border-radius: 31.5rpx !important;
+}
+
+.container {
+
+  height: 1360rpx;
+  margin-top: 0rpx;
+  margin-bottom: 0%;
+  padding-top: 30rpx;
+}
+
+.list {
+  height: 1260rpx;
+
+  margin-top: -80rpx;
+  margin-bottom: 50rpx;
+  border-radius: 24rpx;
+}

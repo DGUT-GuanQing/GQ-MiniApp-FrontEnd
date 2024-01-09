@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "s-select":"../../../component/selectComponent/selectComponent",
+    "s-selectPosition":"../../../component/selectComponent2/selectComponent2"
+  },
+  "navigationBarTitleText": "组织招新",
+  "navigationBarBackgroundColor":"#00A74F"
+ 
+}
